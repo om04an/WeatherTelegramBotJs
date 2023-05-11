@@ -20,7 +20,7 @@ bot.on('message', async msg => {
     const respData = await resp.json();
 
     if (respData.error) {
-        bot.sendMessage(chatId, `Город ( ${text} ) не существует или он не был найден.`)
+        bot.sendMessage(chatId, `City ( ${text} ) does not exist or was not found.`)
     } else {
         const photo = 'https://cdn.weatherapi.com/weather/128x128/' + (respData.current.condition.icon).slice(35)
         const city = respData.location.name
