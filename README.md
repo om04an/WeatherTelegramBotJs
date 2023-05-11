@@ -1,1 +1,1 @@
-# Telegram bot JavaScript
+# Weather Telegram bot JavaScript
