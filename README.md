@@ -1,6 +1,7 @@
 # Weather Telegram bot JavaScript
 
 Telegram bot in JS. The bot uses an API to get the weather.
+
 Website with weather API: www.weatherapi.com
 
 Stack: ***JS***
